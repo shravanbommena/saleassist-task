@@ -1,0 +1,83 @@
+.product-card {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  color: #e5dfd9;
+  font-family: "Encode Sans";
+  background-color: #141414;
+  border-radius: 8px;
+}
+
+.product-img-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.product-img {
+  width: 100%;
+  height: 373px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.product-card-bookmark-button {
+  position: relative;
+  right: 42px;
+  top: 18px;
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-size: 24px;
+}
+
+.product-details {
+  padding: 13px 10px;
+}
+
+.product-title {
+  font-weight: 400;
+  font-size: 20.5px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.product-price-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15.8px;
+}
+
+.product-price-details {
+  display: flex;
+  align-items: flex-end;
+}
+
+.product-discount-price {
+  font-size: 19px;
+  font-weight: bold;
+  margin: 0 4.27px 0 0;
+}
+
+.product-original-price {
+  font-size: 12px;
+  margin: 0 4.27px 0 0;
+}
+
+.product-discount-percentage {
+  font-size: 12px;
+  margin: 0 4.27px 0 0;
+  color: #2fc14f;
+}
+
+.product-add-to-cart-button {
+  border: none;
+  background-color: #141414;
+  height: 44px;
+  width: 36px;
+}
+
+.product-add-to-cart-button-image {
+  height: 44px;
+  width: 36px;
+}

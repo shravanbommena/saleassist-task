@@ -1,0 +1,35 @@
+.product-categories {
+  list-style-type: none;
+  display: flex;
+  min-height: 130px;
+  padding-top: 32px;
+  padding-left: 32px;
+  background-color: #0c0c0c;
+  margin-top: -1px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+  min-height: 130px;
+  max-height: 140px;
+}
+
+.product-category {
+  margin-right: 56px;
+  display: flex;
+  flex-direction: column;
+  color: #e5dfd9;
+  text-align: center;
+  margin-right: 56px;
+  min-height: 130px;
+  max-height: 140px;
+}
+
+.product-category-img {
+  height: 96px;
+}
+
+.product-category-text {
+  font-family: "Encode Sans";
+  font-size: 13px;
+  letter-spacing: 1px;
+}

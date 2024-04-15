@@ -1,0 +1,56 @@
+.navbar {
+  min-height: 105px;
+  background-color: #0c0c0c;
+}
+
+.navbar-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 26px 22px 50px;
+  margin-top: 0;
+  padding-top: 20px;
+}
+
+.navbar-title {
+  font-family: "Comme";
+  color: #e5dfd9;
+  font-size: 20px;
+  line-height: 28px;
+  margin: 0;
+  font-weight: 200;
+  letter-spacing: 10px;
+}
+
+.navbar-button-group {
+  display: flex;
+}
+
+.navbar-button {
+  border: none;
+  font-size: 20px;
+  color: #e5dfd9;
+  background-color: #0c0c0c;
+  margin-right: 15px;
+}
+
+.navbar-button-md {
+  font-size: 26px;
+  margin-top: 2px;
+}
+
+.navbar-bottom-links {
+  display: flex;
+  padding-left: 0;
+  justify-content: center;
+  color: #e5dfd9;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.navbar-link {
+  font-family: "Encode Sans";
+  font-size: 14px;
+  letter-spacing: 2px;
+  margin-right: 50px;
+}
